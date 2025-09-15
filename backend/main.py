@@ -5,3 +5,8 @@ app = FastAPI()
 @app.get('/')
 def root():
     return {'Hello':'Erripooka'}
+
+
+@app.post('/items')
+def giveItems():
+    pass
